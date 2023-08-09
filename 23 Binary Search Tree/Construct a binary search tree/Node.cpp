@@ -1,8 +1,10 @@
 #include <iostream>
 using namespace std;
 
-typedef struct node {
-
+typedef struct Node {
+	int data;
+	struct Node *left;
+	struct Node *right;
 };
 
 
