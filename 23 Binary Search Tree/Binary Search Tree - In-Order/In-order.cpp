@@ -9,6 +9,10 @@ struct Node {
 
 };
 
+
+Node *root = NULL;
+
+
 int main() {
 
 
