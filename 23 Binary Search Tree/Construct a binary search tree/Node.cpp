@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 typedef struct Node {
@@ -6,6 +7,10 @@ typedef struct Node {
 	struct Node *left;
 	struct Node *right;
 };
+
+Node *root;
+
+root = NULL;
 
 
 int main() {
