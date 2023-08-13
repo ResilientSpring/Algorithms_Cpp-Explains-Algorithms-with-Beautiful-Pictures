@@ -13,6 +13,13 @@ struct Node {
 Node *root = NULL;
 
 
+Node *createNewNode(int newData) {
+
+	Node *newNode = new Node;
+
+}
+
+
 int main() {
 
 
