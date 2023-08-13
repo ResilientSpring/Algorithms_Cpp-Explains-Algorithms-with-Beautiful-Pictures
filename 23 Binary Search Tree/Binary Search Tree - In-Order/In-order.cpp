@@ -19,6 +19,8 @@ Node *createNewNode(int newData) {
 	newNode->left = NULL;
 	newNode->right = NULL;
 
+	return newNode;
+
 }
 
 
