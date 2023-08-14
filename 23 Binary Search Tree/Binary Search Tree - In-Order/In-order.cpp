@@ -32,6 +32,7 @@ void inOrder(Node *root) {
 
 	inOrder(root->left);  // Traversing the left subtree.
 	cout << root->data << ", ";
+	inOrder(root->right); // Traversing the right subtree.
 
 }
 
