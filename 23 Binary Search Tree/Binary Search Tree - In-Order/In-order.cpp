@@ -24,6 +24,14 @@ Node *createNewNode(int newData) {
 }
 
 
+// In-order traversal binary search tree
+void inOrder(Node *root) {
+
+
+
+}
+
+
 int main() {
 
 
