@@ -37,6 +37,14 @@ void inOrder(Node *root) {
 }
 
 
+void insert(Node *node, int newData) {
+
+	if (root == NULL) {
+		root = new Node;
+	}
+}
+
+
 int main() {
 
 
