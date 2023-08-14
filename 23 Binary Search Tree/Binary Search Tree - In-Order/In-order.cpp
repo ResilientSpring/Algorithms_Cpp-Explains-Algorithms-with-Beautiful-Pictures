@@ -27,7 +27,11 @@ Node *createNewNode(int newData) {
 // In-order traversal binary search tree
 void inOrder(Node *root) {
 
+	if (root == NULL)
+		return;
 
+	inOrder(root->left);  // Traversing the left subtree.
+	cout << root->data << ", ";
 
 }
 
